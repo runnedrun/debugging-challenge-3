@@ -9,4 +9,5 @@ setInterval(function() {
   }	
 }, 500)
 
-$("#blue-blinker").css({border: "white"});
+//$("#blue-blinker").css({border: "3px solid black"});
+//$("#blue-blinker").css({border: "none"});
