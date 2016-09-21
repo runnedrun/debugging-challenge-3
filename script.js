@@ -8,3 +8,5 @@ setInterval(function() {
     backgroundIsBlue = true;
   }	
 }, 500)
+
+$("#blue-blinker").css({border: "white"});
