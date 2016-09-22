@@ -1,15 +1,14 @@
-var backgroundIsBlue = false
-setInterval(function() {
-  if (backgroundIsBlue) {
-    $("#blue-blinker").css({background: "white"});
-    backgroundIsBlue = false;
-  } else {		
-    $("#blue-blinker").css({background: "red"});	
-    backgroundIsBlue = true;
-  }	
-}, 500)
+console.log("ASdfasf")
+$("#add-button").click(function() {
+  $("#add-display").html("what?")
+})
 
-classadoo.com/editor?recovery_mode=true
+$("#picture-button").click(function() {
+  $("#picture-display").html("what?")
+})
 
-//$("#blue-blinker").css({border: "3px solid black"});
-//$("#blue-blinker").css({border: "none"});
+var clicks = 0;
+$("#counter-button").click(function() {  
+  clicks = clicks + 1
+  $("#counter-display").html(clicks)
+})

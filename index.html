@@ -1,28 +1,37 @@
 <html>
   <head>
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script> 
-        <link href="style.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <link href="style.css" rel="stylesheet"/>
   </head>
   <body>
     <div>        
-      Welcome to moreblinks.com, home of things that change appearance repeatedly!
+      Welcome to coolsite.com, home of buttons that do things!
     </div>
-        
-	<div id="blue-blinker"> 
-		I have a blue blinking background!
-	</div>          
 
-    
-	<div id="border-blinker"> 
-		I have a border that blinks...slowly
-	</div>          
+    <div>
+      <div> 
+        <input type="button" id="add-button" value="2 + 2 = ????">
+      </div>
+      <div id="add-display">
+      </div>
+    </div>
 
-    
-	<div id="text-blinker"> 
-		My text appears and disappears
-	</div>          
+    <div> 
+      <input type="button" id="picture-button" value="show picture">
+      <div id="picture-display">
+      </div>
+    </div>
 
+    <div> 
+      <input type="button" id="counter-button" value="count clicks">
+      <h4>
+        How many clicks?
+      </h4>
+      <div id="counter-display">
+        0
+      </div>
+    </div>          
     <script src="script.js">
     </script>
   </body>
-</html>d
+</html>
